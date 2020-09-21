@@ -257,15 +257,6 @@ function draw() {
   
   noStroke();
   drawGrid();
-  // //Best score
-  // fill(45);
-  // rect(860, 70, 65, 45, 5);
-  // textSize(12);
-  // fill(72, 12, 81);
-  // text(`BEST`, 875, 86);
-  // fill(240);
-  // text(`${score}`, 882, 103);
-  //score
   fill(45);
   rect(880, 80, 65, 45, 5);
   textSize(12);
@@ -356,14 +347,6 @@ function combine(row) {
   return row;
 }
 
-//Best score
-// function resetBest(){
-//   if (best > score){
-//     //do nothing
-//   }
-//   else{
-//     best 
-//   }
   
 
 function drawGrid() {
@@ -395,10 +378,6 @@ function drawGrid() {
           100,
           100
         ); // so that the text is randomly displayed on the board
-        // noFill();
-        // stroke(5);
-        // rect(i * w + width / 2.8 + 10 * i + 5 ,
-        //   j * w + height * 0.3 + 10 * j + 3 , 100, 100, 10);
       }
     }
   }
